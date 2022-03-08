@@ -3,33 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1860A52825CCEC52008E06D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52725CCEC52008E06D1 /* AppDelegate.swift */; };
-		1860A52A25CCEC52008E06D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52925CCEC52008E06D1 /* SceneDelegate.swift */; };
-		1860A52C25CCEC52008E06D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52B25CCEC52008E06D1 /* ViewController.swift */; };
-		1860A52F25CCEC52008E06D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860A52D25CCEC52008E06D1 /* Main.storyboard */; };
-		1860A53125CCEC56008E06D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860A53025CCEC56008E06D1 /* Assets.xcassets */; };
-		1860A53425CCEC56008E06D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860A53225CCEC56008E06D1 /* LaunchScreen.storyboard */; };
-		189623B425D2E13300233DDA /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189623B325D2E13300233DDA /* CreditViewController.swift */; };
+		18C814E827D65B8F008ACF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C814E727D65B8F008ACF61 /* AppDelegate.swift */; };
+		18C814EA27D65B8F008ACF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C814E927D65B8F008ACF61 /* SceneDelegate.swift */; };
+		18C814EC27D65B8F008ACF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C814EB27D65B8F008ACF61 /* ViewController.swift */; };
+		18C814EF27D65B8F008ACF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C814ED27D65B8F008ACF61 /* Main.storyboard */; };
+		18C814F127D65B90008ACF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C814F027D65B90008ACF61 /* Assets.xcassets */; };
+		18C814F427D65B90008ACF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C814F227D65B90008ACF61 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1860A52425CCEC52008E06D1 /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1860A52725CCEC52008E06D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1860A52925CCEC52008E06D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1860A52B25CCEC52008E06D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1860A52E25CCEC52008E06D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1860A53025CCEC56008E06D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1860A53325CCEC56008E06D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1860A53525CCEC56008E06D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		189623B325D2E13300233DDA /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		18C814E427D65B8F008ACF61 /* Delegate-ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegate-ImagePicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C814E727D65B8F008ACF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C814E927D65B8F008ACF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C814EB27D65B8F008ACF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C814EE27D65B8F008ACF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C814F027D65B90008ACF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C814F327D65B90008ACF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C814F527D65B90008ACF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1860A52125CCEC52008E06D1 /* Frameworks */ = {
+		18C814E127D65B8F008ACF61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,129 +37,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1860A51B25CCEC52008E06D1 = {
+		18C814DB27D65B8F008ACF61 = {
 			isa = PBXGroup;
 			children = (
-				1860A52625CCEC52008E06D1 /* UpDownGame */,
-				1860A52525CCEC52008E06D1 /* Products */,
+				18C814E627D65B8F008ACF61 /* Delegate-ImagePicker */,
+				18C814E527D65B8F008ACF61 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1860A52525CCEC52008E06D1 /* Products */ = {
+		18C814E527D65B8F008ACF61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1860A52425CCEC52008E06D1 /* UpDownGame.app */,
+				18C814E427D65B8F008ACF61 /* Delegate-ImagePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1860A52625CCEC52008E06D1 /* UpDownGame */ = {
+		18C814E627D65B8F008ACF61 /* Delegate-ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				189623B325D2E13300233DDA /* CreditViewController.swift */,
-				1860A52725CCEC52008E06D1 /* AppDelegate.swift */,
-				1860A52925CCEC52008E06D1 /* SceneDelegate.swift */,
-				1860A52B25CCEC52008E06D1 /* ViewController.swift */,
-				1860A52D25CCEC52008E06D1 /* Main.storyboard */,
-				1860A53025CCEC56008E06D1 /* Assets.xcassets */,
-				1860A53225CCEC56008E06D1 /* LaunchScreen.storyboard */,
-				1860A53525CCEC56008E06D1 /* Info.plist */,
+				18C814E727D65B8F008ACF61 /* AppDelegate.swift */,
+				18C814E927D65B8F008ACF61 /* SceneDelegate.swift */,
+				18C814EB27D65B8F008ACF61 /* ViewController.swift */,
+				18C814ED27D65B8F008ACF61 /* Main.storyboard */,
+				18C814F027D65B90008ACF61 /* Assets.xcassets */,
+				18C814F227D65B90008ACF61 /* LaunchScreen.storyboard */,
+				18C814F527D65B90008ACF61 /* Info.plist */,
 			);
-			path = UpDownGame;
+			path = "Delegate-ImagePicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1860A52325CCEC52008E06D1 /* UpDownGame */ = {
+		18C814E327D65B8F008ACF61 /* Delegate-ImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1860A53825CCEC56008E06D1 /* Build configuration list for PBXNativeTarget "UpDownGame" */;
+			buildConfigurationList = 18C814F827D65B90008ACF61 /* Build configuration list for PBXNativeTarget "Delegate-ImagePicker" */;
 			buildPhases = (
-				1860A52025CCEC52008E06D1 /* Sources */,
-				1860A52125CCEC52008E06D1 /* Frameworks */,
-				1860A52225CCEC52008E06D1 /* Resources */,
+				18C814E027D65B8F008ACF61 /* Sources */,
+				18C814E127D65B8F008ACF61 /* Frameworks */,
+				18C814E227D65B8F008ACF61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UpDownGame;
-			productName = UpDownGame;
-			productReference = 1860A52425CCEC52008E06D1 /* UpDownGame.app */;
+			name = "Delegate-ImagePicker";
+			productName = "Delegate-ImagePicker";
+			productReference = 18C814E427D65B8F008ACF61 /* Delegate-ImagePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1860A51C25CCEC52008E06D1 /* Project object */ = {
+		18C814DC27D65B8F008ACF61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					1860A52325CCEC52008E06D1 = {
-						CreatedOnToolsVersion = 12.3;
+					18C814E327D65B8F008ACF61 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1860A51F25CCEC52008E06D1 /* Build configuration list for PBXProject "UpDownGame" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 18C814DF27D65B8F008ACF61 /* Build configuration list for PBXProject "Delegate-ImagePicker" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1860A51B25CCEC52008E06D1;
-			productRefGroup = 1860A52525CCEC52008E06D1 /* Products */;
+			mainGroup = 18C814DB27D65B8F008ACF61;
+			productRefGroup = 18C814E527D65B8F008ACF61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1860A52325CCEC52008E06D1 /* UpDownGame */,
+				18C814E327D65B8F008ACF61 /* Delegate-ImagePicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1860A52225CCEC52008E06D1 /* Resources */ = {
+		18C814E227D65B8F008ACF61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860A53425CCEC56008E06D1 /* LaunchScreen.storyboard in Resources */,
-				1860A53125CCEC56008E06D1 /* Assets.xcassets in Resources */,
-				1860A52F25CCEC52008E06D1 /* Main.storyboard in Resources */,
+				18C814F427D65B90008ACF61 /* LaunchScreen.storyboard in Resources */,
+				18C814F127D65B90008ACF61 /* Assets.xcassets in Resources */,
+				18C814EF27D65B8F008ACF61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1860A52025CCEC52008E06D1 /* Sources */ = {
+		18C814E027D65B8F008ACF61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860A52C25CCEC52008E06D1 /* ViewController.swift in Sources */,
-				1860A52825CCEC52008E06D1 /* AppDelegate.swift in Sources */,
-				1860A52A25CCEC52008E06D1 /* SceneDelegate.swift in Sources */,
-				189623B425D2E13300233DDA /* CreditViewController.swift in Sources */,
+				18C814EC27D65B8F008ACF61 /* ViewController.swift in Sources */,
+				18C814E827D65B8F008ACF61 /* AppDelegate.swift in Sources */,
+				18C814EA27D65B8F008ACF61 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1860A52D25CCEC52008E06D1 /* Main.storyboard */ = {
+		18C814ED27D65B8F008ACF61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1860A52E25CCEC52008E06D1 /* Base */,
+				18C814EE27D65B8F008ACF61 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1860A53225CCEC56008E06D1 /* LaunchScreen.storyboard */ = {
+		18C814F227D65B90008ACF61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1860A53325CCEC56008E06D1 /* Base */,
+				18C814F327D65B90008ACF61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,13 +166,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1860A53625CCEC56008E06D1 /* Debug */ = {
+		18C814F627D65B90008ACF61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -220,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,13 +227,13 @@
 			};
 			name = Debug;
 		};
-		1860A53725CCEC56008E06D1 /* Release */ = {
+		18C814F727D65B90008ACF61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -275,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,37 +282,55 @@
 			};
 			name = Release;
 		};
-		1860A53925CCEC56008E06D1 /* Debug */ = {
+		18C814F927D65B90008ACF61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UpDownGame/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delegate-ImagePicker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Moon.UpDownGame;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moon.Delegate-ImagePicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1860A53A25CCEC56008E06D1 /* Release */ = {
+		18C814FA27D65B90008ACF61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UpDownGame/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delegate-ImagePicker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Moon.UpDownGame;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moon.Delegate-ImagePicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1860A51F25CCEC52008E06D1 /* Build configuration list for PBXProject "UpDownGame" */ = {
+		18C814DF27D65B8F008ACF61 /* Build configuration list for PBXProject "Delegate-ImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1860A53625CCEC56008E06D1 /* Debug */,
-				1860A53725CCEC56008E06D1 /* Release */,
+				18C814F627D65B90008ACF61 /* Debug */,
+				18C814F727D65B90008ACF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1860A53825CCEC56008E06D1 /* Build configuration list for PBXNativeTarget "UpDownGame" */ = {
+		18C814F827D65B90008ACF61 /* Build configuration list for PBXNativeTarget "Delegate-ImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1860A53925CCEC56008E06D1 /* Debug */,
-				1860A53A25CCEC56008E06D1 /* Release */,
+				18C814F927D65B90008ACF61 /* Debug */,
+				18C814FA27D65B90008ACF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1860A51C25CCEC52008E06D1 /* Project object */;
+	rootObject = 18C814DC27D65B8F008ACF61 /* Project object */;
 }
