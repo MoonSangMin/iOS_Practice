@@ -15,6 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="M6D-cb-rHN">
+                            <rect key="frame" x="0.0" y="172" width="414" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="더보기"/>
+                            <connections>
+                                <action selector="more:" destination="QRl-Rb-IXC" eventType="touchUpInside" id="vJd-oy-0oB"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="105" id="Yho-3T-ysg" customClass="MovieCell" customModule="MoonMovieChart" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="105"/>
@@ -72,6 +81,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="영화정보" id="tLT-b5-o5f"/>
+                    <connections>
+                        <outlet property="moreBtn" destination="M6D-cb-rHN" id="6St-mY-2HZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7J-dQ-A6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
