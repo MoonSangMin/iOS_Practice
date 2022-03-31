@@ -47,15 +47,17 @@ class ListViewController: UITableViewController {
             for row in movie {
                 let r = row as! NSDictionary
                 let mvo = MovieVO()
-                let url: URL! = URL(string: mvo.thumbnail!)
-                let imageData = try! Data(contentsOf: url)
                 
-                mvo.thumbnailImage = UIImage(data: imageData)
                 mvo.title = r["title"] as? String
                 mvo.description = r["genreNames"] as? String
                 mvo.thumbnail = r["thumbnailImage"] as? String
                 mvo.detail = r["linkUrl"] as? String
                 mvo.rating = (r["ratingAverage"] as! NSString).doubleValue
+                
+                let url: URL! = URL(string: mvo.thumbnail!)
+                let imageData = try! Data(contentsOf: url)
+                
+                mvo.thumbnailImage = UIImage(data: imageData)
                 
                 self.list.append(mvo)
             }
@@ -96,5 +98,16 @@ class ListViewController: UITableViewController {
     
     override func viewDidLoad() {
         self.callMovieAPI()
+    }
+    
+}
+
+extension ListViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segue_detail" {
+            let path = self.tableView.indexPath(for: sender as! MovieCell)
+            let detailVC = segue.destination as? DetailViewController
+            detailVC?.mvo = self.list[path!.row]
+        }
     }
 }
