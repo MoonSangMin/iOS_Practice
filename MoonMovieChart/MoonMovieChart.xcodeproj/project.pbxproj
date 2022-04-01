@@ -15,6 +15,10 @@
 		1862AD3A27DB6A0C000DB803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1862AD3827DB6A0C000DB803 /* LaunchScreen.storyboard */; };
 		1862AD4227DB7F42000DB803 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862AD4127DB7F42000DB803 /* ListViewController.swift */; };
 		1862AD4427DD8CB9000DB803 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862AD4327DD8CB9000DB803 /* MovieVO.swift */; };
+		186C7DAF27F6DCB100259384 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 186C7DAD27F6DCB100259384 /* list.png */; };
+		186C7DB027F6DCB100259384 /* trailer.png in Resources */ = {isa = PBXBuildFile; fileRef = 186C7DAE27F6DCB100259384 /* trailer.png */; };
+		186C7DB227F7198800259384 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C7DB127F7198800259384 /* TheaterCell.swift */; };
+		186C7DB427F71A2F00259384 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C7DB327F71A2F00259384 /* TheaterListController.swift */; };
 		187328D727EFAFB80071263F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187328D627EFAFB80071263F /* MovieCell.swift */; };
 		187328DC27EFFFE80071263F /* secret.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 187328D927EFFFE80071263F /* secret.jpeg */; };
 		187328DD27EFFFE80071263F /* darknight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 187328DA27EFFFE80071263F /* darknight.jpeg */; };
@@ -33,6 +37,10 @@
 		1862AD3B27DB6A0C000DB803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1862AD4127DB7F42000DB803 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1862AD4327DD8CB9000DB803 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		186C7DAD27F6DCB100259384 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		186C7DAE27F6DCB100259384 /* trailer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trailer.png; sourceTree = "<group>"; };
+		186C7DB127F7198800259384 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
+		186C7DB327F71A2F00259384 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
 		187328D627EFAFB80071263F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		187328D927EFFFE80071263F /* secret.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpeg; sourceTree = "<group>"; };
 		187328DA27EFFFE80071263F /* darknight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpeg; sourceTree = "<group>"; };
@@ -82,6 +90,8 @@
 				1862AD4127DB7F42000DB803 /* ListViewController.swift */,
 				187328D627EFAFB80071263F /* MovieCell.swift */,
 				189BDCF927F5A6B700216E08 /* DetailViewController.swift */,
+				186C7DB127F7198800259384 /* TheaterCell.swift */,
+				186C7DB327F71A2F00259384 /* TheaterListController.swift */,
 			);
 			path = MoonMovieChart;
 			sourceTree = "<group>";
@@ -89,6 +99,8 @@
 		187328D827EFFDF00071263F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				186C7DAD27F6DCB100259384 /* list.png */,
+				186C7DAE27F6DCB100259384 /* trailer.png */,
 				187328DA27EFFFE80071263F /* darknight.jpeg */,
 				187328DB27EFFFE80071263F /* rain.jpeg */,
 				187328D927EFFFE80071263F /* secret.jpeg */,
@@ -154,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186C7DAF27F6DCB100259384 /* list.png in Resources */,
+				186C7DB027F6DCB100259384 /* trailer.png in Resources */,
 				1862AD3A27DB6A0C000DB803 /* LaunchScreen.storyboard in Resources */,
 				187328DE27EFFFE80071263F /* rain.jpeg in Resources */,
 				187328DC27EFFFE80071263F /* secret.jpeg in Resources */,
@@ -171,9 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1862AD3227DB6A0B000DB803 /* ViewController.swift in Sources */,
+				186C7DB227F7198800259384 /* TheaterCell.swift in Sources */,
 				1862AD2E27DB6A0B000DB803 /* AppDelegate.swift in Sources */,
 				187328D727EFAFB80071263F /* MovieCell.swift in Sources */,
 				1862AD4227DB7F42000DB803 /* ListViewController.swift in Sources */,
+				186C7DB427F71A2F00259384 /* TheaterListController.swift in Sources */,
 				1862AD3027DB6A0B000DB803 /* SceneDelegate.swift in Sources */,
 				1862AD4427DD8CB9000DB803 /* MovieVO.swift in Sources */,
 				189BDCFA27F5A6B700216E08 /* DetailViewController.swift in Sources */,
